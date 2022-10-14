@@ -1,3 +1,5 @@
 #!/usr/bin/env bash
-ps -aux | grep bash
+# The script displays pid with bash keyword
 # shellcheck disable=SC2009
+
+ps -aux | grep bash
