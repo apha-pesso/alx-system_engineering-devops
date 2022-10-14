@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
-# Prints to infinity
+# the script displays "To infinity and beyond"
+# and adds sleep 2 between each output
 
 while true
 do
