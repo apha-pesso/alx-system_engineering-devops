@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
-# This will print "Best school" 10 times using the while loop
-
+# This will print number from 1- 20 using the while loop
+# on the 4th iteration, it will display "bad luck from china"
+#+ on the 9th iteration, it displays "bad luck from japan"
+#+ on the 117th iteration, it displays "bad luck from italy"
 i=1
 while [ $i -le 20 ]
 do
