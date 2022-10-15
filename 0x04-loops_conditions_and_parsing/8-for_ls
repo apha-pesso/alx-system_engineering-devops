@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# script to display content of current directory
+
+li="$(ls)"
+for i in $li
+do
+	item=$(echo "$i" | cut -d'-' -f2)
+	echo "$item"
+done
