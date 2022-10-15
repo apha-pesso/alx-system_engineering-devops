@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+# This will print "Best school" 10 times using the while loop
+#+ will print "bad luck' on 4th iteration and 'good luck' on the 8th
+
+counter=1
+while [ $counter -le 10 ]
+do
+	if [ $counter == 4 ]
+	then
+		echo "bad luck"
+	elif
+		[ $counter == 8 ]
+	then
+		echo "good luck"
+	else
+		echo "Best School"
+	fi
+	((counter++))
+done
