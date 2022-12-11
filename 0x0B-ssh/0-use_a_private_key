@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Connect to ubuntu@100.25.31.96 using ~/.ssh/school as the keyfile
+ssh -i ~/.ssh/school ubuntu@100.25.31.96
