@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# Configure a new server
+
+sudo apt-get update
+sudo apt-get -y install nginx
+echo 'Hello World!' | sudo tee /var/www/html/index.html
+replace="server_name _;"
+add_header="server_name _;\n\n\tadd_header X-Served-By \$hostname;\n"
+sudo sed -i "s/$replace/$add_header/" /etc/nginx/sites-enabled/default
+sudo service nginx start
