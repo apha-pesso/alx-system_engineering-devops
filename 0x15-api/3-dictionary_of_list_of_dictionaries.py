@@ -19,8 +19,6 @@ if __name__ == "__main__":
                       "completed": task.get('completed')}
                 task_list.append(tf)
         full_dict[user_id] = task_list
-        if (user_id == 5):
-            print(task_list)
 
     file_name = "todo_all_employees.json"
     with open(file_name, 'w', encoding='utf-8') as f:
