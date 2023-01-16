@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Module that Gather data from an API"""
+"""Export data to csv file"""
 import requests
 from sys import argv
 from csv import writer, QUOTE_ALL
