@@ -1,9 +1,9 @@
 #!/usr/bin/python3
 """Export data to csv file"""
+import json
 import requests
 from sys import argv
 from csv import writer, QUOTE_ALL
-import json
 
 if __name__ == "__main__":
     users = requests.get('https://jsonplaceholder.typicode.com/users').json()
